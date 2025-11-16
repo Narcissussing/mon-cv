@@ -1,27 +1,29 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
 <!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <title>Mon Resume</title>
   </head>
   <body>
-    <h1>Olumide Oyinloye</h1>
+    <h1 id="mon_nom">Olumide Oyinloye</h1>
     <!--Photo de moi-->
     <img src="assets/images/ma_photo.PNG" alt="image de moi" height="150" />
 
-    <p>
-      Spécialiste de l’informatique avec plus de 6 ans d’expérience dans les
+    <p id="sommaire">
+      Spécialiste de l’informatique avec plus de 7 ans d’expérience dans les
       secteurs de l’informatique, de la banque, du e-commerce et de la sécurité
       des réseaux. Répond aux besoins en matière de tests manuels et automatisés
     </p>
     <hr />
 
-    <h2>Éducation</h2>
+    <h2 class="titre-section">Éducation</h2>
     <ul>
       <li>
-        <h3>Université Bordeaux Montaigne, Pessac</h3>
+        <h3 class="sous-titre" >Université Bordeaux Montaigne, Pessac</h3>
         <ul>
           <li>Langue Française (Littérature)</li>
           <li>2018–2019</li>
@@ -29,7 +31,7 @@
       </li>
 
       <li>
-        <h3>OpenClassrooms</h3>
+        <h3 class="sous-titre" >OpenClassrooms</h3>
         <ul>
           <li>Formation en Testeur Logiciel</li>
           <li>2025-2026</li>
@@ -38,10 +40,10 @@
     </ul>
     <hr />
 
-    <h2>Expérience de Travail</h2>
+    <h2 class="titre-section">Expérience de Travail</h2>
     <ul>
       <li>
-        <h3>Consultant – uTest</h3>
+        <h3 class="sous-titre" >Consultant – uTest</h3>
         <p>
           Consultant pour de nombreuses entreprises : Meta, Google, Canal Plus,
           TF1, Zalando, L’Oréal, Revolut…
@@ -55,7 +57,7 @@
         </ul>
       </li>
       <li>
-        <h3>Testeur fonctionnel – Google</h3>
+        <h3 class="sous-titre" >Testeur fonctionnel – Google</h3>
         <p>Google Pay – Division Europe</p>
         <p>2018</p>
         <ul>
@@ -71,17 +73,17 @@
     </ul>
     <hr />
 
-    <h2>Compétences</h2>
+    <h2 class="titre-section">Compétences</h2>
     <ul>
       <li>
-        <h3>Techniques :</h3>
+        <h3 class="sous-titre" >Techniques :</h3>
         <p>
           Java, SQL, Python, Javascript, HTML, Gherkin, Webdriver.io, Robot
           Framework, Selenium, Playwright
         </p>
       </li>
       <li>
-        <h3>Outils :</h3>
+        <h3 class="sous-titre" >Outils :</h3>
         <p>
           Postman, SoapUI, ReadyAPI, Swagger, Jenkins, JIRA, Squash, Pycharm,
           IntelliJ IDEA, Android Studio, Microsoft Octane, Confluence
@@ -89,28 +91,28 @@
       </li>
 
       <li>
-        <h3>Testing :</h3>
+        <h3 class="sous-titre" >Testing :</h3>
         <p>Web, logiciels (Mobile, PC, TV, TV Sticks), API, VR</p>
       </li>
     </ul>
     <hr />
 
-    <h2>Bénévolat</h2>
+    <h2 class="titre-section">Bénévolat</h2>
     <ul>
       <li>
-        <h3>Relais Amical MALAKOFF HUMANIS</h3>
+        <h3 class="sous-titre" >Relais Amical MALAKOFF HUMANIS</h3>
         <p>2021 – 2024</p>
         <p>Tutorat en anglais pour seniors</p>
       </li>
       <li>
-        <h3>Go Bilingual</h3>
+        <h3 class="sous-titre" >Go Bilingual</h3>
         <p>2014 – 2015</p>
         <p>Tutorat en anglais pour jeunes, Cotonou (Bénin)</p>
       </li>
     </ul>
     <hr />
 
-    <h2>Langues</h2>
+    <h2 class="titre-section">Langues</h2>
     <ul>
       <li>Français – ⭐️⭐️⭐️</li>
       <li>Anglais – ⭐️⭐️⭐️⭐️⭐️</li>
@@ -118,20 +120,14 @@
     </ul>
     <hr />
 
-    <h2>Autres Informations</h2>
+    <h2 class="titre-section">Autres Informations</h2>
     <a href="public/hobbies.html">Centres d’intérêt</a>
     <br />
     <a href="public/contact.html">Contactez-moi</a>
-    <br />
-    
     <footer>
         <small>
         Copyright © 2025 Olumide Oyinloye. All Rights Reserved.
         </small>
-  </footer>
+    </footer>
   </body>
 </html>
-
-
-
-
