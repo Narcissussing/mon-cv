@@ -1,0 +1,60 @@
+
+html, body {
+    height: 100%; 
+    margin: 10px; 
+}
+body {
+    
+    display: flex;           /* Flexbox layout */
+    flex-direction: column;
+    font-family: 'Poppins', sans-seri;
+    background: radial-gradient(circle at 20% 20%, rgba(0,255,240,0.20), transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(255,0,128,0.15), transparent 55%),
+                linear-gradient(135deg, #052b44, #041f32 60%, #02131e);
+    background-attachment: fixed;
+    color: #ffffff; 
+    
+}
+
+
+
+#sommaire, #mon_nom, footer {
+  text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.652);
+}
+#mon_nom {
+    font-size: 3rem;          /* Taille du titre principal */
+    font-weight: 700;         /* Très gras */
+    letter-spacing: 1px;      /* Un peu d’espace entre les lettres */
+    margin-bottom: 20px;
+}
+
+.titre-section {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.sous-titre {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+#sommaire {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.7;
+    max-width: 800px; 
+    margin: 20px auto; 
+    text-align: center;
+}
+footer {
+    margin-top: auto;   /* Pushes the footer to the bottom */
+    text-align: center; /* (your current style) */
+    padding: 20px;
+}
